@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+body {
+    background-color: #fff;
+}
+/* bagian navbar */
+.navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 20px;
+    color: #fff;
+}
+.navbar-toggler {
+    padding: .20rem .50rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.nav-link {
+    color: #fff !important;
+}
+.wrapper {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #363636;
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+    transition: 1s all;
+}
+.navbar-brand {
+    color: #fff;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-bottom: 4px;
+    font-size: 27px;
+}
+.navbar-red:hover .wrapper {
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+.navbar-red {
+    background-color: #2e80ed;
+    color: #fff;
+}
+.all-show {
+    z-index: 10;
+}
+/* end navbar */
+/* bagian copyright */
+.footer {
+    clear: both;
+    margin-top: 8px;
+    background-color: #eee;
+    padding: 8px 5px;
+    font-family: Sans-Serif;
+    font-size: 15px;
+}
+.footer a {
+    text-decoration: none;
+}
+/* end copyright */
+/* bagian support */
+#pelanggan {
+    padding: 10px;
+    background: linear-gradient(to right, #1cb5e0, #000046);
+}
+#titik1, #titik2 {
+    font-size: 15px;
+    color: #fff;
+}
+#Dana {
+    padding: 0px;
+    width: 175px;
+    border-radius: 0px 20px 40px;
+    box-shadow: 5px 5px 5px #2e80ed;
+    transition: 0.5s all;
+}
+#Dana:hover {
+    box-shadow: 5px 5px 5px transparent;
+}
+/* end support */
+/* kontak */
+#kontak {
+    padding: 15px;
+}
+#Tzy1 {
+    background-color: #424242;
+    border-radius: 3px;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 20px;
+}
+#Tzy2 {
+    background-color: red;
+    border-radius: 3px;
+    padding: 5px 25px;
+    color: #fff;
+    font-size: 20px;
+}
+#Tzy3 {
+    background-color: #FF49FE;
+    border-radius: 3px;
+    padding: 5px 25px;
+    color: #fff;
+    font-size: 20px;
+}
+/* end kontak */
+/* isian */
+#content {
+    background-color: #eee;
+    padding: 15px;
+}
+#judul {
+    font-family: 'Allerta Stencil';
+    font-size: 20px;
+    padding: 10px;
+}
+.epep {
+    padding: 2.5px;
+}
+.epep img {
+    border-radius: 0px 10px 20px;
+    box-shadow: 5px 5px 5px #FF8300;
+    transition: 0.5s all;
+}
+.epep img:hover {
+    box-shadow: 5px 5px 5px #eee;
+}
+.ml {
+    padding: 2.5px;
+}
+.ml img {
+    border-radius: 0px 10px 20px;
+    box-shadow: 5px 5px 5px #0075FF;
+    transition: 0.5s all;
+}
+.ml img:hover {
+    box-shadow: 5px 5px 5px #eee;
+}
+/* end isian */

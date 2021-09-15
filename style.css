@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 body {
     background-color: #fff;
+    width: 100%;
 }
 /* bagian navbar */
 .navbar-nav li a {
@@ -69,6 +70,16 @@ body {
     font-size: 15px;
     color: #fff;
 }
+#tutor {
+    font-family: Sans-Serif;
+    text-align: justify;
+}
+#judul3 {
+    font-family: 'Allerta Stencil';
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
 #Dana {
     padding: 0px;
     width: 175px;
@@ -116,49 +127,52 @@ body {
     font-size: 20px;
     padding: 10px;
 }
-.epep {
+#epep {
     padding: 5px;
 }
-.epep img {
+#epep img {
     border-radius: 0px 10px 20px;
     box-shadow: 5px 5px 5px #FF8300;
     transition: 0.5s all;
 }
-.epep img:hover {
+#epep img:hover {
     box-shadow: 5px 5px 5px transparent;
 }
-.ml {
+#ml {
     padding: 5px;
 }
-.ml img {
+#ml img {
     border-radius: 0px 10px 20px;
     box-shadow: 5px 5px 5px #0075FF;
     transition: 0.5s all;
 }
-.ml img:hover {
+#ml img:hover {
     box-shadow: 5px 5px 5px transparent;
 }
-.pubg {
+#pubg {
     padding: 5px;
 }
-.pubg img {
+#pubg img {
     border-radius: 0px 10px 20px;
     box-shadow: 5px 5px 5px #434343;
     transition: 0.5s all;
 }
-.pubg img:hover {
+#pubg img:hover {
     box-shadow: 5px 5px 5px transparent;
 }
-.codm {
+#codm {
     padding: 5px;
 }
-.codm img {
+#codm img {
     border-radius: 0px 10px 20px;
     box-shadow: 5px 5px 5px #792C1E;
     transition: 0.5s all;
 }
-.codm img:hover {
+#codm img:hover {
     box-shadow: 5px 5px 5px transparent;
+}
+.carousel-control-next-icon {
+    box-shadow: 2px #424242;
 }
 #judul2 {
     font-family: 'Allerta Stencil';
